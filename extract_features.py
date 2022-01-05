@@ -1,7 +1,7 @@
 import os, sys
 
 
-directory = "the_directory_of_the_audio_files"
+directory = "the_directory_of_the_input_audio_files"
 
 for root, subdirectories, files in os.walk(directory):
     #for subdirectory in subdirectories:
